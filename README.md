@@ -51,4 +51,24 @@ ansible is expecting the inputs in yaml
 keys(parameters) are provoded by yaml
 some values are provided by ansible
 
-`````````````````````````````
+` ````````````````````````````
+sample palybook
+````
+sample.yml
+- name: some playbook
+  hosts: all
+  tasks:
+   - name: demo task
+     ansible.builtin.yum:
+       name: nginx
+       state: installed
+- name: some role paly
+  hosts: all
+  roles:
+    - demo
+
+sample.yaml is playbook every playbook starts with a list meaning it can have one or more plays
+-name keyword on play is optional and it is good to have
+- host must to have keyword
+-either tasks/roles is a msut to have role
+---
