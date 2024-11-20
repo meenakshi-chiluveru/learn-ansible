@@ -15,22 +15,18 @@ create inventory file  - vim servers
 connecting to node: create inventory file and node ip address in inventory file
 command to connect remote server: ansible -i inventoryfilename all -e ansible-user=ansible -e ansible-password=DevOps321 -m ping
 
-``````
-````````````````````
+
 ansible is declarative
 ansible supports heterogenous by default
 ansible can scale to large infrastructure
 
-```````
-```````
+
 how ansible conncts to node to push
 ansible uses ssh
-ansible needs inventory
-```````````````
 
-`````
+
+
 how ansible manages node configuration
 earlier = modules
 latest collections
 
-`````````````````
