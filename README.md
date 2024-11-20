@@ -30,3 +30,10 @@ how ansible manages node configuration
 earlier = modules
 latest collections
 ``````````````````````````
+`````````
+how ansible handles
+install collection
+file collection
+service collection
+ansible playbook
+`````````````````````````
