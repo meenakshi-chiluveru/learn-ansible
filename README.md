@@ -19,3 +19,4 @@ command to connect remote server: ansible -i inventoryfilename all -e ansible-us
 ````````````````````
 ansible is declarative
 ansible supports heterogenous by default
+ansible can scale to large infrastructure
