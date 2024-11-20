@@ -37,3 +37,6 @@ file collection
 service collection
 ansible playbook
 `````````````````````````
+``````
+ansible playbook will be written in YAML markup language
+`````````````````````````````
