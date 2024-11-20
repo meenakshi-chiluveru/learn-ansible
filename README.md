@@ -39,4 +39,16 @@ ansible playbook
 `````````````````````````
 ``````
 ansible playbook will be written in YAML(yet another markup language) markup language
+file extension can be like .yml or .yaml
+inputs will be in the form of key:value pairs those will be plain or list or map/dictionary
+a:10 - plain
+a: [ 10,20 ]
+
+``````````````````
+ansible is expecting the inputs in yaml
+keys(parameters) are provoded by yaml
+some values are provided by ansible
+`````````````````````
+
+
 `````````````````````````````
