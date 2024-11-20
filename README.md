@@ -22,11 +22,15 @@ ansible supports heterogenous by default
 ansible can scale to large infrastructure
 
 ```````
+```````
 how ansible conncts to node to push
 ansible uses ssh
 ansible needs inventory
-
+```````````````
 
 `````
 how ansible manages node configuration
-e
+earlier = modules
+latest collections
+
+`````````````````
