@@ -38,5 +38,5 @@ service collection
 ansible playbook
 `````````````````````````
 ``````
-ansible playbook will be written in YAML markup language
+ansible playbook will be written in YAML(yet another markup language) markup language
 `````````````````````````````
