@@ -45,10 +45,10 @@ a:10 - plain
 a: [ 10,20 ]
 
 ``````````````````
+
+`````````````````````
 ansible is expecting the inputs in yaml
 keys(parameters) are provoded by yaml
 some values are provided by ansible
-`````````````````````
-
 
 `````````````````````````````
