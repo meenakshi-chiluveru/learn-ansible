@@ -72,3 +72,9 @@ sample.yaml is playbook every playbook starts with a list meaning it can have on
 - host must to have keyword
 -either tasks/roles is a msut to have role
 ---
+`````
+to run playbook
+ansible -i ip address, all -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ping
+ansible-playbook -i 174.129.126.165, -e ansible-user=ec2-user -e ansible-password=DevOps321 01-demo.yaml
+
+``````
